@@ -28,7 +28,7 @@ gerçekleştirilmiştir.
 
 Veriler arasındaki basamak farklılıklarından kaynaklı işlem kaymalarından olumsuz
 etkilenmemek için veri seti normalize edilmiştir. Normalize edilirken iki farklı yöntem uygulanmıştır. ‘scale’ yönteminde karar kılındıktan sonra
-projeye scale yöntemiyle devam edilmiştir.‘center’ yöntemi ile normalize ettikten sonra sayıların büyük ölçüde farklarını koruduğunu ve
+projeye scale yöntemiyle devam edilmiştir.Çünkü ‘center’ yöntemi ile normalize ettikten sonra sayıların büyük ölçüde farklarını koruduğunu ve
 eksi değerlerin oluşmasını farkettikten sonra bu yöntemden vazgeçilmiştir.
 scale yönteminin varsayılan,'std' (default), seçenekleri kullanılmıştır. ‘scale’ yöntemi veriler arası
 oranları koruduğu için ve eksi değerler döndürmediği için bu veri seti için daha uygun bulunmuştur.
@@ -62,7 +62,7 @@ The data were randomly divided into 80% training set and 20% test set, and five 
 
 Negative effects of process shifts due to step differences between data. The data set has been normalized to avoid being affected.
 In order not to be affected, the data set has been normalized. While normalizing, two different methods were applied. After deciding on the 'scale' method
-The project continued with the scale method. After normalizing with the 'center' method, the numbers kept their differences to a large extent and
+The project continued with the scale method. Because normalizing with the 'center' method, the numbers kept their differences to a large extent and
 After noticing the formation of negative values, this method was abandoned. The default, 'std' (default), options of the scale method are used. 'scale' method between data. It was found more suitable for this data set as it preserves the ratios and does not return negative values.
 
 Project completion date: 07.12.2022
